@@ -1,0 +1,80 @@
+#navi {
+    text-align: left;
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    background-color:rgb(160, 0, 0);
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+#navi a {
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: none;
+}
+#navi ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+}
+
+#navi ul li {
+    padding-left: 1rem;
+    font-family:"";
+}
+
+header {
+    background-image: url("bilder-spiderman/2560px-The_amazing_spiderman_logo.svg.png");
+    background-size: 100%;
+    text-shadow: 5px 10px 8px black;
+    color:rgb(78, 0, 0);
+    font-size: 4px;
+    text-align: center;
+    padding: 100px;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+.main {
+    flex-grow: 1;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+}
+footer {
+    justify-content: center;
+    display: flex;
+    background-color:rgb(160, 0, 0);
+    padding: 10px;
+}
+footer p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+footer a {
+    color: black;
+    text-shadow: 0px 0px 10px black;
+    text-decoration: none;
+}
+#inhalt {
+    display: flex;
+
+}
+#inhalt ul {
+    color:black;
+    text-shadow: 0px 0px 10px black;
+
+}
+.main ul{
+    text-decoration: none;
+list-style: none;
+font-size: 20px;
+line-height: 40px;
+}
